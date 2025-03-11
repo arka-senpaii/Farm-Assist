@@ -16,8 +16,8 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 WebServer server(80);
-const char* ssid = "Your_SSID";
-const char* password = "Your_Password"; //Removed due to senstive data
+const char* ssid = "XXXXX";
+const char* password = "XXXXXXXXX"; //Removed due to senstive data
 
 void setup() {
     Serial.begin(115200);
